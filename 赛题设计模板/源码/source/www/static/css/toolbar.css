@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+
+/*= Gobal reset ==========================================*/
+body,div,address,blockquote,iframe,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,pre,table,caption,th,td,form,legend,fieldset{margin:0;padding:0;font-size:100%;}
+ol,ul{list-style:none;}
+img,iframe,fieldset{border:0;}
+
+/*= Common style =*/
+.apptools .clear{clear:both;height:0;overflow:hidden;font:0/0 sans-serif;}
+.apptools .clearfix{zoom:1;}
+.apptools .clearfix:after{content:".";display:block;clear:both;height:0;font:0/0 sans-serif;visibility:hidden;}
+
+/*= App tools =*/
+.apptools{font:75%/1.5 "Lucida Grande",Helvetica,Arial,sans-serif;}
+.apptools{margin-bottom:0px;border-top:1px solid #ccc;color:#666;background:#eee url(../images/toolbar/highlight_1.gif) repeat-x;zoom:1;}
+.apptools-bottom{border-top:0;border-bottom:1px solid #ccc;background-position:0 100%;}
+.apptools-inner{padding:5px;line-height:25px;}
+.apptools .select{float:left;margin-right:3px;padding:0 5px;height:25px;}
+.apptools .edge{float:left;margin-left:3px;margin-right:3px;width:2px;height:25px;text-indent:-999px;overflow:hidden;background:url(../images/toolbar/apptools_edge.gif) no-repeat;}
+.apptools .btn{float:left;padding:0 5px 0 0;margin-left:3px;margin-right:3px;background:url(../images/toolbar/button_3.png) no-repeat 0 999px;cursor:pointer;}
+.apptools .btn span{float:left;padding:0 0 0 5px;height:25px;background:url(../images/toolbar/button_3.png) no-repeat 0 999px;}
+.apptools .btn img{float:left;margin:5px 2px 0 0;}
+.apptools .btn-dropdown{padding-right:19px;background-position:100% 0;}
+.apptools .btn:hover{background-position:100% -75px;}
+.apptools .btn:hover span{background-position:0 -50px;}
+.apptools .btn-dropdown:hover{background-position:100% -25px;}
+.apptools a:link,.apptools a:visited{color:#666;text-decoration:none;}
+.apptools .dropdowndock{float:left;position:relative;z-index:1;}
+.apptools .dropdowndock .dropdownmenu-wrap{top:23px;left:0;}
+
+/*= Dropdown menu =*/
+.dropdownmenu-wrap{position:absolute;margin:3px 0 0 3px;background:url(../images/toolbar/shadow.png);z-index:10;}
+.dropdownmenu{position:relative;top:-2px;left:-2px;width:150px;background:#fff;}
+.dropdownmenu-list,
+.dropdownmenu-inner{padding:1px;border:1px solid;border-color:#bbb #aaa #aaa #bbb;zoom:1;}
+.dropdownmenu-list li{zoom:1;}
+.dropdownmenu-list li.dropmenu-split{height:1px;margin:1px 1px 1px 20px;background:#ddd;overflow:hidden;text-indent:-9999px;font:0/0 sans-serif;}
+.dropdownmenu-list li a{display:block;line-height:2;padding:0 10px 0 25px;background-repeat:no-repeat;background-position:5px 50%;zoom:1;}
+.dropdownmenu-list li a.checked{background-image:url(../images/toolbar/checked.gif);}
+.dropdownmenu-list li a:link,.dropdownmenu-list li a:visited{color:#666;}
+.dropdownmenu-list li a:hover,.dropdownmenu-list li a:active{background-color:#f2f7fb;}
+.dropdownmenu a:link,.dropdownmenu a:visited{color:#000;}
+
+
+/* File Extensions*/
+.ext { background-image:url(../images/mime/unknown.png);background-repeat: no-repeat; margin: 0px; padding: 0px; height: 16px; width: 16px; }
+
+/*folder*/
+.ext_folder { background-image:url(../images/mime/archive.png); }
+.ext_folder_go { background-image:url(../images/toolbar/folder_up.gif); }
+.ext_folder_open { background-image:url(../images/toolbar/folder_open.gif);  }
+
+
+.ext_big { background-image:url(../images/mime/unknown_big.png);  }
+.ext_big_dir { background-image:url(../images/toolbar/floder_big.png); }
+.ext_big_upto { background-image:url(../images/toolbar/floder_parent_big.png); }
+
+
+/*file*/
+.ext_archive{ background-image:url(../images/mime/archive.png); }
+.ext_audio{ background-image:url(../images/mime/audio.png); }
+.ext_authors{ background-image:url(../images/mime/authors.png); }
+.ext_bin{ background-image:url(../images/mime/bin.png); }
+.ext_bmp{ background-image:url(../images/mime/bmp.png); }
+.ext_c{ background-image:url(../images/mime/c.png); }
+.ext_calc{ background-image:url(../images/mime/calc.png); }
+.ext_cd{ background-image:url(../images/mime/cd.png); }
+.ext_copying{ background-image:url(../images/mime/copying.png); }
+.ext_cpp{ background-image:url(../images/mime/cpp.png); }
+.ext_css{ background-image:url(../images/mime/css.png); }
+.ext_deb{ background-image:url(../images/mime/deb.png); }
+.ext_default{ background-image:url(../images/mime/default.png); }
+.ext_doc{ background-image:url(../images/mime/doc.png); }
+.ext_draw{ background-image:url(../images/mime/draw.png); }
+.ext_eps{ background-image:url(../images/mime/eps.png); }
+.ext_exe{ background-image:url(../images/mime/exe.png); }
+.ext_floder{ background-image:url(../images/mime/floder.png); }
+.ext_floder-home{ background-image:url(../images/mime/floder-home.png); }
+.ext_floder-open{ background-image:url(../images/mime/floder-open.png); }
+.ext_floder-page{ background-image:url(../images/mime/floder-page.png); }
+.ext_floder-parent{ background-image:url(../images/mime/floder-parent.png); }
+.ext_gif{ background-image:url(../images/mime/gif.png); }
+.ext_gzip{ background-image:url(../images/mime/gzip.png); }
+.ext_h{ background-image:url(../images/mime/h.png); }
+.ext_hpp{ background-image:url(../images/mime/hpp.png); }
+.ext_html{ background-image:url(../images/mime/html.png); }
+.ext_ico{ background-image:url(../images/mime/ico.png); }
+.ext_image{ background-image:url(../images/mime/image.png); }
+.ext_install{ background-image:url(../images/mime/install.png); }
+.ext_java{ background-image:url(../images/mime/java.png); }
+.ext_jpg{ background-image:url(../images/mime/jpg.png); }
+.ext_js{ background-image:url(../images/mime/js.png); }
+.ext_log{ background-image:url(../images/mime/log.png); }
+.ext_makefile{ background-image:url(../images/mime/makefile.png); }
+.ext_package{ background-image:url(../images/mime/package.png); }
+.ext_pdf{ background-image:url(../images/mime/pdf.png); }
+.ext_php{ background-image:url(../images/mime/php.png); }
+.ext_playlist{ background-image:url(../images/mime/playlist.png); }
+.ext_png{ background-image:url(../images/mime/png.png); }
+.ext_pres{ background-image:url(../images/mime/pres.png); }
+.ext_psd{ background-image:url(../images/mime/psd.png); }
+.ext_py{ background-image:url(../images/mime/py.png); }
+.ext_rar{ background-image:url(../images/mime/rar.png); }
+.ext_rb{ background-image:url(../images/mime/rb.png); }
+.ext_readme{ background-image:url(../images/mime/readme.png); }
+.ext_rpm{ background-image:url(../images/mime/rpm.png); }
+.ext_rss{ background-image:url(../images/mime/rss.png); }
+.ext_rtf{ background-image:url(../images/mime/rtf.png); }
+.ext_script{ background-image:url(../images/mime/script.png); }
+.ext_source{ background-image:url(../images/mime/source.png); }
+.ext_sql{ background-image:url(../images/mime/sql.png); }
+.ext_tar{ background-image:url(../images/mime/tar.png); }
+.ext_tex{ background-image:url(../images/mime/tex.png); }
+.ext_text{ background-image:url(../images/mime/text.png); }
+.ext_tiff{ background-image:url(../images/mime/tiff.png); }
+.ext_vcal{ background-image:url(../images/mime/vcal.png); }
+.ext_video{ background-image:url(../images/mime/video.png); }
+.ext_xml{ background-image:url(../images/mime/xml.png); }
+.ext_zip{ background-image:url(../images/mime/zip.png); }
+
+
+/************ 大图预览模式图标 *************************/
+
+/*file*/
+.ext_big_archive{ background-image:url(../images/mime/archive_big.png); }
+.ext_big_audio{ background-image:url(../images/mime/audio_big.png); }
+.ext_big_authors{ background-image:url(../images/mime/authors_big.png); }
+.ext_big_bin{ background-image:url(../images/mime/bin_big.png); }
+.ext_big_bmp{ background-image:url(../images/mime/bmp_big.png); }
+.ext_big_c{ background-image:url(../images/mime/c_big.png); }
+.ext_big_calc{ background-image:url(../images/mime/calc_big.png); }
+.ext_big_cd{ background-image:url(../images/mime/cd_big.png); }
+.ext_big_copying{ background-image:url(../images/mime/copying_big.png); }
+.ext_big_cpp{ background-image:url(../images/mime/cpp_big.png); }
+.ext_big_css{ background-image:url(../images/mime/css_big.png); }
+.ext_big_deb{ background-image:url(../images/mime/deb_big.png); }
+.ext_big_default{ background-image:url(../images/mime/default_big.png); }
+.ext_big_doc{ background-image:url(../images/mime/doc_big.png); }
+.ext_big_draw{ background-image:url(../images/mime/draw_big.png); }
+.ext_big_eps{ background-image:url(../images/mime/eps_big.png); }
+.ext_big_exe{ background-image:url(../images/mime/exe_big.png); }
+.ext_big_floder{ background-image:url(../images/mime/floder_big.png); }
+.ext_big_floder-home{ background-image:url(../images/mime/floder-home_big.png); }
+.ext_big_floder-open{ background-image:url(../images/mime/floder-open_big.png); }
+.ext_big_floder-page{ background-image:url(../images/mime/floder-page_big.png); }
+.ext_big_floder-parent{ background-image:url(../images/mime/floder-parent_big.png); }
+.ext_big_gif{ background-image:url(../images/mime/gif_big.png); }
+.ext_big_gzip{ background-image:url(../images/mime/gzip_big.png); }
+.ext_big_h{ background-image:url(../images/mime/h_big.png); }
+.ext_big_hpp{ background-image:url(../images/mime/hpp_big.png); }
+.ext_big_html{ background-image:url(../images/mime/html_big.png); }
+.ext_big_ico{ background-image:url(../images/mime/ico_big.png); }
+.ext_big_image{ background-image:url(../images/mime/image_big.png); }
+.ext_big_install{ background-image:url(../images/mime/install_big.png); }
+.ext_big_java{ background-image:url(../images/mime/java_big.png); }
+.ext_big_jpg{ background-image:url(../images/mime/jpg_big.png); }
+.ext_big_js{ background-image:url(../images/mime/js_big.png); }
+.ext_big_log{ background-image:url(../images/mime/log_big.png); }
+.ext_big_makefile{ background-image:url(../images/mime/makefile_big.png); }
+.ext_big_package{ background-image:url(../images/mime/package_big.png); }
+.ext_big_pdf{ background-image:url(../images/mime/pdf_big.png); }
+.ext_big_php{ background-image:url(../images/mime/php_big.png); }
+.ext_big_playlist{ background-image:url(../images/mime/playlist_big.png); }
+.ext_big_png{ background-image:url(../images/mime/png_big.png); }
+.ext_big_pres{ background-image:url(../images/mime/pres_big.png); }
+.ext_big_psd{ background-image:url(../images/mime/psd_big.png); }
+.ext_big_py{ background-image:url(../images/mime/py_big.png); }
+.ext_big_rar{ background-image:url(../images/mime/rar_big.png); }
+.ext_big_rb{ background-image:url(../images/mime/rb_big.png); }
+.ext_big_readme{ background-image:url(../images/mime/readme_big.png); }
+.ext_big_rpm{ background-image:url(../images/mime/rpm_big.png); }
+.ext_big_rss{ background-image:url(../images/mime/rss_big.png); }
+.ext_big_rtf{ background-image:url(../images/mime/rtf_big.png); }
+.ext_big_script{ background-image:url(../images/mime/script_big.png); }
+.ext_big_source{ background-image:url(../images/mime/source_big.png); }
+.ext_big_sql{ background-image:url(../images/mime/sql_big.png); }
+.ext_big_tar{ background-image:url(../images/mime/tar_big.png); }
+.ext_big_tex{ background-image:url(../images/mime/tex_big.png); }
+.ext_big_text{ background-image:url(../images/mime/text_big.png); }
+.ext_big_tiff{ background-image:url(../images/mime/tiff_big.png); }
+.ext_big_vcal{ background-image:url(../images/mime/vcal_big.png); }
+.ext_big_video{ background-image:url(../images/mime/video_big.png); }
+.ext_big_xml{ background-image:url(../images/mime/xml_big.png); }
+.ext_big_zip{ background-image:url(../images/mime/zip_big.png); }

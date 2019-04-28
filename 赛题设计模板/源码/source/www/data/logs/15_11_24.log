@@ -1,0 +1,5 @@
+[ 2015-11-24 09:43:34 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-11-24 09:44:12 (CST) ]  WARNING:  trim() expects parameter 1 to be string, array given  C:\wamp\www\core\Functions.php  第155行  
+[ 2015-11-24 09:44:12 (CST) ]  WARNING:  trim() expects parameter 1 to be string, array given  C:\wamp\www\core\Functions.php  第155行  
+[ 2015-11-24 09:58:01 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-11-24 10:07:11 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  

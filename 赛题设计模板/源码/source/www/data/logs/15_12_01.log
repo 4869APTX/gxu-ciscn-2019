@@ -1,0 +1,38 @@
+[ 2015-12-01 16:04:29 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 16:04:34 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:09:06 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:09:25 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:31:53 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:32:03 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:42:04 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:42:04 (CST) ]  WARNING:  mysql_fetch_row() expects parameter 1 to be resource, boolean given  C:\wamp\www\core\AuthLocal.class.php  第63行  
+[ 2015-12-01 16:43:05 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:43:05 (CST) ]  WARNING:  mysql_fetch_row() expects parameter 1 to be resource, boolean given  C:\wamp\www\core\AuthLocal.class.php  第64行  
+[ 2015-12-01 16:43:17 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:43:17 (CST) ]  WARNING:  mysql_fetch_row() expects parameter 1 to be resource, boolean given  C:\wamp\www\core\AuthLocal.class.php  第64行  
+[ 2015-12-01 16:43:32 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:44:31 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:44:43 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:45:01 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:45:10 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 16:46:39 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:47:08 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:47:21 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:47:54 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:48:07 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:48:13 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:49:51 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第57行  
+[ 2015-12-01 16:56:43 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 16:56:47 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 16:56:55 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 16:58:16 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 17:08:36 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 17:12:26 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:13:12 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:13:25 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:14:30 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:16:48 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 17:20:59 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:21:11 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-12-01 17:22:27 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  
+[ 2015-12-01 17:25:31 (CST) ]  NOTICE:  A session had already been started - ignoring session_start()  C:\wamp\www\core\AuthLocal.class.php  第56行  

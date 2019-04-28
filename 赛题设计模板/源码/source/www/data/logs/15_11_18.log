@@ -1,0 +1,25 @@
+[ 2015-11-18 22:14:09 (CST) ]  NOTICE:  Use of undefined constant WF_Auth - assumed 'WF_Auth'  C:\wamp\www\index.php  第11行  
+[ 2015-11-18 22:14:44 (CST) ]  NOTICE:  Use of undefined constant WF_Auth - assumed 'WF_Auth'  C:\wamp\www\index.php  第11行  
+[ 2015-11-18 22:23:39 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:23:39 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:23:39 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:25:19 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-11-18 22:28:18 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
+[ 2015-11-18 22:29:01 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:29:01 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:01 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:08 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:29:08 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:08 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:17 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:29:18 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:18 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:24 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:24 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:52 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:29:52 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:29:52 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:35:35 (CST) ]  WARNING:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed  C:\wamp\www\index.php  第472行  
+[ 2015-11-18 22:35:35 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:35:35 (CST) ]  WARNING:  in_array() expects parameter 2 to be array, null given  C:\wamp\www\core\AuthLocal.class.php  第23行  
+[ 2015-11-18 22:36:00 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\wamp\www\core\AuthLocal.class.php  第29行  
